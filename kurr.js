@@ -514,7 +514,7 @@ const ftrol = {
                             status: 1,
                             surface : 1,
                             message: `BOT AKTIF SELAMA : ${waktu(runtime)}`, //Kasih namalu
-                            orderTitle: `KurrXdゑ v.3.0`,
+                            orderTitle: `Noizydevゑ v.3.0`,
                             thumbnail: ofrply3, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -1172,40 +1172,40 @@ reply(cpref)
 cpref = ` *Prefix Saat ini: ( ${prefix} )*`
 reply(cpref)
 }
-if(budy.includes('KurrXd')){
+if(budy.includes('Noizydev')){
 kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
+kurr.sendMessage("6288211090997@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
 kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
 }
-if(budy.includes('kurrxd')){
+if(budy.includes('Noizydev')){
 kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
+kurr.sendMessage("6288211090997@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
 kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
 }
-if(budy.includes('kurrtod')){
+if(budy.includes('Raka')){
 kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
+kurr.sendMessage("6288211090997@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
 kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
 }
-if(budy.includes('KurrTod')){
+if(budy.includes('Noizydev')){
 kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
+kurr.sendMessage("6288211090997@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
 kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
 }
 if(budy.includes('Assalamualaikum')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Noizydev Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('assalamualaikum')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Noizydev Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('Hai')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Noizydev Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('hai')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya Noizydev Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('tendang')){
@@ -1403,7 +1403,7 @@ if (isCmd && !isOwner) antiSpam.addFilter(from)
 		
 		//runtime berjalan
            runi = process.uptime() 
-           kurr.setStatus(`Hy Iam Yuki👧`).catch((_)=>_);
+           kurr.setStatus(`Hy Iam Noizydev`).catch((_)=>_);
 
            settingstatus = new Date() * 1;
            
@@ -1453,7 +1453,7 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
  stod = `${sender}`
  listMsg = {
  buttonText: 'PILIH MENU DISINI',
- footerText: '*_© Yuki ゑ_*',
+ footerText: '*_© Noizydev ゑ_*',
  description: `Hai @${stod.split('@')[0]}\nSaya Adalah Yuki Bot`,
  sections: [
                      {
@@ -1566,7 +1566,7 @@ _ℒ⃝⛔Bio : ${stst}_
 _ℒ⃝📱Nomor : @${stod.split('@')[0]}_
 
 
-*❒ 「 Yuki Botzゑ  MENU 」 ❒*
+*❒ 「 Noizydevゑ  MENU 」 ❒*
 
 _書 ${prefix}ownermenu_
 
@@ -1592,7 +1592,7 @@ _書 ${prefix}gamemenu_
 
 _書 ${prefix}othermenu_
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply2,name:""}, [{buttonId:`info`,buttonText:{displayText:'INFO BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply2,name:""}, [{buttonId:`info`,buttonText:{displayText:'INFO BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1600,7 +1600,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1694,7 +1694,7 @@ _書 ${prefix}bukatime [ _detik/menit/jam_ ]_
 _書 ${prefix}tutuptime [ _detik/menit/jam_ ]_
 _書 ${prefix}nano [ _nama file_ ]_             
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1702,7 +1702,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1750,7 +1750,7 @@ case 'blmmenu':
 _書 ${prefix}piltek_
 _書 ${prefix}gift_               
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1758,7 +1758,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1835,7 +1835,7 @@ _書 ${prefix}sticktag [ _nama sticker_ ]_
 _書 ${prefix}totag [ _reply media_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1843,7 +1843,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1918,7 +1918,7 @@ _書 ${prefix}puki_
 _書 ${prefix}pantex_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1926,7 +1926,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2008,7 +2008,7 @@ _書 ${prefix}otaku [ _search_ ]_
 _書 ${prefix}komiku [ _search_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2016,7 +2016,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2165,7 +2165,7 @@ _書 ${prefix}freefire teksnya_
 _書 ${prefix}shadow teksnya_
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2173,7 +2173,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2228,7 +2228,7 @@ _書 ${prefix}addimage [ _nama_ ]_
 _書 ${prefix}delimage [ _nama_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2236,7 +2236,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2302,7 +2302,7 @@ _書 ${prefix}detikvn [ _reply audio caption angka_ ]_
 _書 ${prefix}detikvideo [ _reply video caption angka_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2310,7 +2310,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2384,7 +2384,7 @@ _書 ${prefix}milf_
 _書 ${prefix}cosplay_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2392,7 +2392,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2509,7 +2509,7 @@ _書 ${prefix}kemonomimi_
 _書 ${prefix}nsfw_avatar_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2517,7 +2517,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2565,7 +2565,7 @@ _書 ${prefix}tebakgambar_
 _書 ${prefix}caklontong_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2573,7 +2573,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2647,7 +2647,7 @@ _書 ${prefix}sharelock [ _teks1|teks2_ ]_
         
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2655,7 +2655,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2770,13 +2770,13 @@ _ℒ⃝♏ MCC : 510_
 _ℒ⃝🌐 Platfrom : ${os.platform()}_
 _ℒ⃝📳 Mode : ${publik ? 'Public' : 'Self'}_
 _ℒ⃝☢️ Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-_ℒ⃝👨‍💻 Name Creator : KurrXd_
+_ℒ⃝👨‍💻 Name Creator : Noizydev_
 
 *BOT INI MENGGUNAKAN*
 JASA HOSTING BOT
-_kurrxdstore.xyz_
+_wibusoft.com_
 `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'STORE BOT'},type:1},{buttonId:`speed`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'STORE BOT'},type:1},{buttonId:`speed`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2784,7 +2784,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2845,8 +2845,8 @@ case 'bego':
 case 'catlog': 
 
 
-                nama = ' ゑwelcome to kurrxd storeゑ '
-       ownerJid = "6281220670449@s.whatsapp.net"
+                nama = ' ゑwelcome to Noizydev storeゑ '
+       ownerJid = "6288211090997@s.whatsapp.net"
                 nomor = 1
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -2917,7 +2917,7 @@ mhan = await kurr.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `Yuki ゑ`,
+footerText: `Noizydev ゑ`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -2928,7 +2928,7 @@ break
         stod = `${sender}`
  listMsg = {
  buttonText: 'LIST STORE',
- footerText: '*_© Yuki ゑ_*',
+ footerText: '*_© Noizydev ゑ_*',
  description: `Ohayoo @${stod.split('@')[0]}, Silahkan Mau Beli Apa Kak...`,
  sections: [
                      {
@@ -2979,7 +2979,7 @@ case 'jasasewa':
        ini_txt += `~${get_result.quote}`
        
        menu = ` 𝗢𝗣𝗘𝗡 𝗦𝗘𝗪𝗔𝗕𝗢𝗧
- -ＫｕｒｒＸｄ-
+ -Noizydev-
 
 ＦＩＴＵＲ:
 ᴛᴏᴛᴀʟ ꜰɪᴛᴜʀ:500+
@@ -3011,7 +3011,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -3055,7 +3055,7 @@ case 'jasa':
        ini_txt += `~${get_result.quote}`
        
        menu = ` 𝙅𝘼𝙎𝘼 𝙄𝙉𝙎𝙏𝘼𝙇𝙇 𝘽𝙊𝙏
- -ＫｕｒｒＸｄ-
+ -Noizydev-
 
 *KurrXd Menyediakan Jasa Install Bot*
 _platform heroku_
@@ -3079,7 +3079,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -3121,7 +3121,7 @@ const serialUser = createSerial(18)
 └❏
 
 JANGAN LUPA JOIN GC : https://chat.whatsapp.com/K8V89lh8XFDBgkkZxa59tw
-*「 Yuki ゑ 」*`
+*「 Noizydev ゑ 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
@@ -3130,7 +3130,7 @@ mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_© kurr_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_© Noizydev_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -3872,7 +3872,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*_Yuki _*',
+    footerText: '*_Noizydev _*',
     buttons: buttons,
     headerType: 1
 }
@@ -3892,7 +3892,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setallmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setallmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygf = {
     contentText: `${anu}`,
-    footerText: '*_Yuki _*',
+    footerText: '*_Noizydev _*',
     buttons: buttons,
     headerType: 1
 }
@@ -3924,7 +3924,7 @@ ini_list.push({
 })
 }
 kurr.sendMessage(from, {
-"displayName": `Developer Yuki ゑ`,
+"displayName": `Noizydev ゑ`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -3965,7 +3965,7 @@ anu =`${emoji2(prefix)}`
 await kurr.sendMessage(from, gifnya, MessageType.video, {mimetype : 'video/mp4', quoted: ftrol, caption: anu})
 break
 case 'sc':
-reply(`SC INI:\nhttps://github.com/KurrXd/Yuki-Bot\nSC KHUSUS JUALAN:\nhttps://github.com/KurrXd/Store-Botz\nMONGGO DIPAKAI`)
+reply(`SC INI:\nHayoMauPakeScGueYa😎👍\nSC KHUSUS JUALAN:\nhttps://github.com/KurrXd/Store-Botz\nMONGGO DIPAKAI`)
 break
 
 
@@ -4019,7 +4019,7 @@ break
 case 'gopay':
 menu = `NO GOPAY:
 0822-9889-1772
-A/N KurrXd-STORE
+A/N Noizydev
 LALU KLIK TOMBOL DI BAWAH 
 DAN KIRIM BUKTI TF KE KONTAK TERSEBUT
  `
@@ -4091,7 +4091,7 @@ case 'debug2':
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Script Yuki ゑ`,
+          "displayText": `Script Noizydev ゑ`,
           "url": "https://github.com/KurrXd"
         },
         "index": 0
@@ -4158,7 +4158,7 @@ Baca artikel detiknews, "Surat Al-Isra Ayat 32, Tentang Larangan Mendekati Zina"
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Noizydev', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4169,7 +4169,7 @@ Baca artikel detiknews, "Surat Al-Isra Ayat 32, Tentang Larangan Mendekati Zina"
               buff = await getBuffer(`https://api.lolhuman.xyz/api/meme/darkjoke?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Noizydev', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4188,7 +4188,7 @@ GC 1: https://chat.whatsapp.com/K8V89lh8XFDBgkkZxa59tw`
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/cecan?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Noizydev', imageMessage: imageMsg,
               contentText:`JANGAN BUAT BAHAN COLI☺`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4207,7 +4207,7 @@ GC 1: https://chat.whatsapp.com/K8V89lh8XFDBgkkZxa59tw`
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/cogan?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Noizydev', imageMessage: imageMsg,
               contentText:`JANGAN BUAT BAHAN COLMEK☺`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4264,7 +4264,7 @@ Baca artikel detiknews, "Surat Al-Isra Ayat 32, Tentang Larangan Mendekati Zina"
                buff = await getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=${lolkey}`)
                 buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Noizydev', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4310,7 +4310,7 @@ case 'loli':
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
 		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = ( await kurr.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Noizydev', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4356,7 +4356,7 @@ case 'neko':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Noizydev', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4375,7 +4375,7 @@ Baca artikel detiknews, "Surat Al-Isra Ayat 32, Tentang Larangan Mendekati Zina"
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/hentai?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Noizydev', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -5231,7 +5231,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antiwame off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antiwame on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_Yuki _*',
+    footerText: '*_Noizydev _*',
     buttons: punten,
     headerType: 1
 }
@@ -5261,7 +5261,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_Yuki _*',
+    footerText: '*_Noizydev _*',
     buttons: punten,
     headerType: 1
 }
@@ -5490,7 +5490,7 @@ break
 buttons = [{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*_Yuki Botzゑ_*',
+    footerText: '*_Noizydevゑ_*',
     buttons: buttons,
     headerType: 1
 }
@@ -6461,7 +6461,7 @@ break
        
        menu = ` BOT TELAH AKTIF SELAMA:${waktu(runtime)}
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply3,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER THIS BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Noizydev ゑ_*", {jpegThumbnail:ofrply3,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER THIS BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -6469,7 +6469,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Noizydev ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -6560,7 +6560,7 @@ break
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_©Yuki ゑ_*',
+    footerText: '*_©Noizydev ゑ_*',
     buttons: punten,
     headerType: 1
 }
@@ -6781,6 +6781,7 @@ Giliran = @${tty.player1.split('@')[0]}`
 
 /**
 * Thx To:
+Noizydev
 KurrXd
 Dcode Denpa
 Yuzzu Kamiyaka
